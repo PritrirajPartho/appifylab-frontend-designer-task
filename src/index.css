@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+} 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-*{
-  margin: 0;
-  padding: 0;
+@layer base{
+
+}
+
+/* Please write here your custom components here */
+@layer components{
+    .width-control-container{
+        @apply  max-w-[1440px] px-[100px];
+    }
+}
+
+/* You can make your own utilities class here. Let's go... */
+@layer utilities {
+
 }

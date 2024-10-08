@@ -1,10 +1,11 @@
 import  React  from 'react'
+import Header from './components/Header'
 
 function App() {
 
   return (
    <div>
-      <h1 className='text-red-700 text-center text-4xl'>Task from appifylab</h1>
+     <Header></Header>
    </div>
   )
 }
